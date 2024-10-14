@@ -12,7 +12,7 @@ export default function WorkItem({ experience }: WorkItemProps) {
   const router = useRouter();
   return (
     <div className='relative col-span-2 flex flex-row items-start gap-2 before:absolute before:bottom-0 before:left-9 before:top-[4rem] before:h-[calc(100%-70px)] before:w-[1px] before:bg-zinc-200 md:col-span-1 dark:before:bg-zinc-800'>
-      <div className='relative grid min-h-[80px] min-w-[80px] place-items-center items-start overflow-clip'>
+      <div className='group relative grid min-h-[80px] min-w-[80px] place-items-center items-start overflow-clip'>
         <Image
           src={experience.logo ?? ISBLogo}
           alt='Work item'

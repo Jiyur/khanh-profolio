@@ -6,6 +6,7 @@ import './globals.css';
 import Header from './_components/Header';
 import { ThemeProvider } from '@/providers/theme-provider';
 import { ScrollToTopButton } from '@/components';
+import Footer from './_components/Footer';
 
 const inter = Inter({
   subsets: ['latin'],
@@ -44,6 +45,7 @@ export default function RootLayout({
             <Header />
             <main className='container flex-1 py-6 md:py-10'>{children}</main>
             <ScrollToTopButton />
+            <Footer />
           </div>
         </ThemeProvider>
       </body>

@@ -8,7 +8,7 @@ export default function Logo() {
 
   return (
     <div
-      className='flex items-center font-mono leading-loose md:text-2xl cursor-pointer'
+      className='flex cursor-pointer items-center font-mono leading-loose md:text-2xl'
       onClick={() => {
         router.push(PAGE_URL.HOME_PAGE);
       }}

@@ -5,6 +5,7 @@ export const skillsData = [
   'TypeScript',
   'React',
   'Next.js',
+  'Shadcn',
   'Git',
   'Tailwind',
   'Redux',

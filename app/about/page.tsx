@@ -1,3 +1,9 @@
+import AboutSection from '../_components/AboutPage/AboutSection';
+
 export default function AboutPage() {
-  return <div>Hello</div>;
+  return (
+    <div>
+      <AboutSection />
+    </div>
+  );
 }
