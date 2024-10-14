@@ -1,0 +1,8 @@
+{
+  "*/**/*.{js,jsx,ts,tsx}": [
+    "yarn run format",
+    "yarn run lint:fix",
+    "yarn run lint:check"
+  ],
+  "*/**/*.{json,css,md}": ["yarn run format"]
+}
