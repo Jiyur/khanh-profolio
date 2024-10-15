@@ -1,7 +1,7 @@
 'use client';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
-import { AVATAR_URL, RESUME_URL } from '@/constants';
+import { ABOUT_GIF_URL, AVATAR_URL, RESUME_URL } from '@/constants';
 import { Button } from '@/components';
 import { ArrowRight, DownloadIcon } from 'lucide-react';
 import Link from 'next/link';
@@ -20,7 +20,7 @@ export default function IntroductionSection() {
             }}
           >
             <Image
-              src={AVATAR_URL}
+              src={ABOUT_GIF_URL}
               alt='author avatar'
               width={320}
               height={320}

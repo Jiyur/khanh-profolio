@@ -7,9 +7,9 @@ import { useRouter } from 'next/navigation';
 export default function Page404() {
   const router = useRouter();
   return (
-    <div className='h-svh bg-header -mt-10'>
+    <div className='bg-header -mt-10 h-svh'>
       <div className='m-auto flex h-full w-full flex-col items-center justify-center gap-2'>
-        <h1 className='bg-gradient-to-b from-black dark:from-muted-foreground to-transparent bg-clip-text text-[10rem] font-extrabold leading-none text-transparent'>
+        <h1 className='bg-gradient-to-b from-black to-transparent bg-clip-text text-[10rem] font-extrabold leading-none text-transparent dark:from-muted-foreground'>
           404
         </h1>
         <span className='text-[1.2em] font-medium'>

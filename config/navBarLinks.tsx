@@ -1,4 +1,4 @@
-import { ContentNavItem, NavItem } from '@/types';
+import { NavItem } from '@/types';
 
 export const navbarLinks: NavItem[] = [
   {
@@ -8,5 +8,9 @@ export const navbarLinks: NavItem[] = [
   {
     title: 'Project',
     href: '/project',
+  },
+  {
+    title: 'Certificate',
+    href: '/certificate',
   },
 ];
