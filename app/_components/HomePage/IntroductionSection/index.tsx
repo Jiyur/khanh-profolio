@@ -55,7 +55,7 @@ export default function IntroductionSection() {
           <span>Contact me</span>
           <ArrowRight size={18} className='duration-100' />
         </Button>
-        <Link href={RESUME_URL} target='_blank'>
+        <Link href={RESUME_URL} target='_blank' legacyBehavior>
           <Button className='space-x-2' variant={'success'}>
             <span>View & Download my Resume</span>
             <DownloadIcon size={18} />
